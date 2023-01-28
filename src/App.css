@@ -1,4 +1,5 @@
 #homePage {
   background-image: url("./images/homePageLogo.webp");
   object-fit: contain;
+  background: no-repeat;
 }
