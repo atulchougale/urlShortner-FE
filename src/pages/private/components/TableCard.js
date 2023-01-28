@@ -23,7 +23,7 @@ const TableCard = ({ urlData }) => {
                     <td>{item.originalUrl}</td>
                     <td>
                    <a href="http://localhost:7000/
-                      {item.shortUrlId}" target={{_blank}}> http://localhost:7000/
+                      {item.shortUrlId}" target="_blank"> http://localhost:7000/
                       {item.shortUrlId}</a>
                     </td>
                     <td>{new Date(item.createdAt).toLocaleDateString()}</td>
