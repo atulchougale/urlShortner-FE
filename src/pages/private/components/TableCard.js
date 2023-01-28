@@ -22,8 +22,9 @@ const TableCard = ({ urlData }) => {
                     <th scope="row">{index + 1}</th>
                     <td>{item.originalUrl}</td>
                     <td>
-                    http://localhost:7000/
-                      {item.shortUrlId}
+                   <a href="http://localhost:7000/
+                      {item.shortUrlId}"> http://localhost:7000/
+                      {item.shortUrlId}</a>
                     </td>
                     <td>{new Date(item.createdAt).toLocaleDateString()}</td>
                     <td
