@@ -1,5 +1,22 @@
 #homePage {
   background-image: url("./images/homePageLogo.webp");
   object-fit: contain;
-  background: no-repeat;
+
+
+}
+
+.welcome{
+  color: black;
+  font-weight: bold;
+  margin-top:-50px
+  
+}
+.longurl{
+  color:DodgerBlue;
+  font-weight:bold;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-top:140px
 }

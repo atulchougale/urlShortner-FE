@@ -12,10 +12,10 @@ const Home = () => {
         id="homePage"
       >
         <div className="p-5 col">
-          <div className="lead display-1">Welcome To UrlShortsApp</div>
+          <div className="lead display-1 welcome text-center">Welcome To UrlShortsApp</div>
         </div>
-        <div className="p-5 display-6 text-danger col">
-          <p>Here you can create shortUrl for a LongUrl</p>
+        <div className="p-5 display-6 col "><br/>
+          <p className="longurl text-center">Here you can create shortUrl for a LongUrl</p>
         </div>
       </div>
       <div className="container-fluid bg-dark p-5">
