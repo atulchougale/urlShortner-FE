@@ -49,7 +49,8 @@ const Signup = () => {
     const { data, status } = await SignupFunc(body);
     setLoader(false);
     if (status === 200) {
-      toast.success("Registration Successful");
+      toast.success("Registration Successful")
+      toast.success("Account Activation link is send on Email please check")
       console.log(data);
       updateToken(data.token);
       updateUser({ ...data.user, idActivated: data.idActivated });
