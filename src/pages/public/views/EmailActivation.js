@@ -54,4 +54,4 @@ const EmailActivation = () => {
   );
 };
 
-export default EmailActivation;
+export default EmailActivation; 
