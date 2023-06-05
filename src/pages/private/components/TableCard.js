@@ -22,8 +22,7 @@ const TableCard = ({ urlData }) => {
                     <th scope="row">{index + 1}</th>
                     <td>{item.originalUrl}</td>
                     <td>
-                    https://urlshortner-rum2.onrender.com
-                      {item.shortUrlId}
+                   <a href={`https://urlshortner-rum2.onrender.com/{item.shortUrlId}`}>https://urlshortner-rum2.onrender.com/{item.shortUrlId}</a>
                     </td>
                     <td>{new Date(item.createdAt).toLocaleDateString()}</td>
                     <td
